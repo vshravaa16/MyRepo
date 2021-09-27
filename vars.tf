@@ -33,3 +33,14 @@ variable "tags" {
   description = "Tags to add to supported resources"
   type        = map(string)
 }
+
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "name" { 
+  default = "dynamic-aws-creds-vault-admin"
+}
+
+/*variable "name" { default = "dynamic-aws-creds-operator" }
+
+variable "path" { default = "../vault-admin-workspace/terraform.tfstate" }
+variable "ttl" { default = "1" }*/
