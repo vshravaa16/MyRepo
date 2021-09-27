@@ -40,7 +40,3 @@ variable "name" {
   default = "dynamic-aws-creds-vault-admin"
 }
 
-/*variable "name" { default = "dynamic-aws-creds-operator" }
-
-variable "path" { default = "../vault-admin-workspace/terraform.tfstate" }
-variable "ttl" { default = "1" }*/
